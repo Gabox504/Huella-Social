@@ -249,7 +249,6 @@ main .mide p{
     font-family:'Anek Devanagari', sans-serif;
     font-size: 25px;
     text-align: center;
-    margin: 20px;
 }
 main .mide .grafico{
     display: flex;
@@ -264,14 +263,14 @@ main .mide li{
 
 }
 main .mide .grafico p{
-    margin: 5px;
     text-align: center;
     font-family:'Anek Devanagari', sans-serif;
     color: white;
+    margin: 5px;
 }
 main .mide .grafico .indicadores{
     background-color: #0b4c8c;
-    width: 40%;
+
 }
 main .mide .grafico .indicadores .indicadores-list{
     display: flex;
@@ -376,15 +375,16 @@ main .entrevista{
 }
 main .entrevista h2{
     font-family:'Anek Devanagari', sans-serif;
-    font-size: 50px;
+    font-size: 45px;
     margin-top: 50px;
     margin-left: 25vw;
     margin-right: 25vw;
     margin-bottom: 5vh;
+    text-align: center;
 }
 main .entrevista p{
     font-family:'Anek Devanagari', sans-serif;
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
 }
 main .entrevista a{
