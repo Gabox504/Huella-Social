@@ -154,7 +154,6 @@ main #huella{
     flex-direction: row;
     margin-left: 32%;
     margin-right: 32%;
-    height: 100vh;
 }
 main #huella h3{
     font-family:'Anek Devanagari', sans-serif;
@@ -185,8 +184,8 @@ main .pobreza .pobreza-1{
     background-color: #0b4c8c;
 }
 main .pobreza img{
-    width: 350px;
-    height: 250px;
+    width: 250px;
+    height: 200px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -341,11 +340,6 @@ main .como-posible h2{
     font-size: 50px;
     margin-top: 50px;
 }
-main .como-posible img{
-    margin-left: 20px;
-    margin-right: 20px;
-    width: 100%;
-}
 main .como-posible .imagenes-posible{
     display: flex;
     justify-content: space-evenly;
@@ -416,7 +410,6 @@ main .como-nacio{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 100vh;
 }
 main .como-nacio h2{
     font-family: 'Anek Devanagari', sans-serif;
@@ -495,3 +488,5 @@ footer .lk{
 footer .lk:hover{
     transform: scale(1.1);
 }
+
+/*----Media queries---*/
