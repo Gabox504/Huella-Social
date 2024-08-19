@@ -284,17 +284,16 @@ main .resultados{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
 }
 main .resultados h2{
     font-family:'Anek Devanagari', sans-serif;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
 }
 main .resultados p{
     font-family:'Anek Devanagari', sans-serif;
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
 }
 main .resultados ul{
     display: flex;
@@ -327,7 +326,6 @@ main .como-posible{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 main .como-posible h2{
     text-align: center;
@@ -345,7 +343,6 @@ main .como-posible .imagenes-posible{
 }
 main .inversion{
     width: 100%;
-    height: 100vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -409,12 +406,12 @@ main .como-nacio{
 }
 main .como-nacio h2{
     font-family: 'Anek Devanagari', sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: 20px;
 }
 main .como-nacio p{
     font-family: 'Anek Devanagari', sans-serif;
-    font-size: 35px;
+    font-size: 25px;
 }
 main .marcas{
     height: 100vh;
