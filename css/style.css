@@ -152,18 +152,17 @@ main #huella{
     align-items: center;
     flex-wrap: nowrap;
     flex-direction: row;
-    margin-left: 32%;
-    margin-right: 32%;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 main #huella h3{
     font-family:'Anek Devanagari', sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
-    margin: 5px;
 }
 main #huella p{
     font-family:'Anek Devanagari', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
 }
 main #huella p .p1{
