@@ -26,7 +26,7 @@ header .index-button img {
 header .logo-derecha img{
     width: 180px;
     height: 50px;
-    margin-left: 25vw;
+    margin-left: 40vw;
 }
 header nav ul {
     list-style: none;
@@ -44,15 +44,41 @@ header nav ul li {
 header nav ul li a {
     text-decoration: none;
     color: white;
-    border: 1px solid #0b4c8c;
-    padding: 8px;
-    border-radius: 8px;
-    font-size: 16px;
-    background-color: #0b4c8c;
-    font-family: 'Anek Devanagari', sans-serif;
+
 }
 header nav ul h2{
     color: black;
+    font-family: 'Anek Devanagari', sans-serif;
+}
+header nav ul .one a{ 
+    border: 1px #0b4c8c;
+    background: #0b4c8c;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: 'Anek Devanagari', sans-serif;
+}
+header nav ul .two a{ 
+    border: 1px orange;
+    background: orange;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: 'Anek Devanagari', sans-serif;
+}header nav ul .three a{ 
+    border: 1px green;
+    background: green;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: 'Anek Devanagari', sans-serif;
+}
+header nav ul .four a{ 
+    border: 1px violet;
+    background: violet;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 16px;
     font-family: 'Anek Devanagari', sans-serif;
 }
 header nav ul .index-button {
@@ -180,22 +206,25 @@ main .hero .hero-p p{
 }
 main #huella{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
-    flex-wrap: nowrap;
     flex-direction: row;
-    margin-left: 30%;
-    margin-right: 30%;
 }
 main #huella h3{
     font-family:'Anek Devanagari', sans-serif;
     font-size: 40px;
     text-align: center;
+
 }
 main #huella p{
     font-family:'Anek Devanagari', sans-serif;
     font-size: 25px;
     text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+main #huella img{
+    margin-left: 70%;
 }
 main #huella p .p1{
     font-weight: 1000;
